@@ -2,124 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>RizeBelediyesi.kml</name>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>804411ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>802807ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_police">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_police</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_police</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>80ff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>80ff0055</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>80ffaa00</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
+	<open>1</open>
 	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -130,129 +13,29 @@
 		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_lodging">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>80ffaa00</color>
-		</PolyStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>80ff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>80ff0055</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_police">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>800000ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_police">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_lodging">
+	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_lodging</styleUrl>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_lodging</styleUrl>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin_hl1">
@@ -268,14 +51,34 @@
 			<width>4</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="msn_picnic">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_picnic</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#sh_picnic</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_lodging">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_lodging0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_lodging">
@@ -286,10 +89,229 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_picnic">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_police">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>804411ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>802807ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_police">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_police</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>80ffaa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_lodging">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_police">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin1">
 		<IconStyle>
@@ -306,17 +328,97 @@
 			<color>802807ff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin00">
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>80ffaa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_picnic">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin01">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin0">
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -327,9 +429,66 @@
 		<BalloonStyle>
 		</BalloonStyle>
 		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_lodging0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_lodging0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
 			<color>800000ff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>RizeBelediyesi</name>
 		<open>1</open>
@@ -338,11 +497,46 @@
 			<open>1</open>
 			<Folder>
 				<name>yurtlar</name>
+				<open>1</open>
+				<Folder>
+					<name>universite-yurdu</name>
+					<Placemark>
+						<name>universite-yurdu</name>
+						<LookAt>
+							<longitude>40.49284396024787</longitude>
+							<latitude>41.03629620309868</latitude>
+							<altitude>0</altitude>
+							<heading>-0.05856944754288696</heading>
+							<tilt>44.3736314825413</tilt>
+							<range>557.698317774369</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_lodging0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.49221265072305,41.03564967855635,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>universite-yurdu</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.49183912167944,41.03606880293333,0 40.49116220453026,41.03569009214927,0 40.49095223457682,41.03520478500971,0 40.49133251826054,41.03499969920458,0 40.49164148745891,41.0350642532597,0 40.49212839012993,41.03528415870552,0 40.49350358549164,41.03592934192132,0 40.49329631571518,41.03640835390188,0 40.49183912167944,41.03606880293333,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
 				<Folder>
 					<name>camionu-kyk-yurdu</name>
 					<Placemark>
 						<name>camionu-kyk-yurdu</name>
-						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/camionu.png">]]></description>
+						<description><![CDATA[<img style="max-width:1000px;" src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/yurtlar/CAM%C4%B0%C3%96N%C3%9C%20KYK%20YURDU%20W%C4%B0F%C4%B0.png">]]></description>
 						<LookAt>
 							<longitude>40.50621400208126</longitude>
 							<latitude>41.03811909894164</latitude>
@@ -352,7 +546,7 @@
 							<range>262.2401139331892</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<styleUrl>#msn_lodging</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>40.50617300969081,41.03809016506945,0</coordinates>
@@ -375,10 +569,9 @@
 				</Folder>
 				<Folder>
 					<name>ensar-yurdu</name>
-					<open>1</open>
 					<Placemark>
 						<name>ensar-yurdu</name>
-						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/ensarvesgk.png">]]></description>
+						<description><![CDATA[<img style="max-width:1000px;" src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/yurtlar/ENSAR%20VE%20SGK%20YURDU%20W%C4%B0F%C4%B0.png">]]></description>
 						<LookAt>
 							<longitude>40.51294342345034</longitude>
 							<latitude>41.03082829243515</latitude>
@@ -411,10 +604,9 @@
 				</Folder>
 				<Folder>
 					<name>sgk-kyk-yurdu</name>
-					<open>1</open>
 					<Placemark>
 						<name>sgk-kyk-yurdu</name>
-						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/ensarvesgk.png">]]></description>
+						<description><![CDATA[<img style="max-width:1000px;" src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/yurtlar/ENSAR%20VE%20SGK%20YURDU%20W%C4%B0F%C4%B0.png">]]></description>
 						<LookAt>
 							<longitude>40.51294342345034</longitude>
 							<latitude>41.03082829243515</latitude>
@@ -447,10 +639,9 @@
 				</Folder>
 				<Folder>
 					<name>arastirma-yesilcay-kyk-yurdu</name>
-					<open>1</open>
 					<Placemark>
 						<name>yesilcay-kyk-yurdu</name>
-						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/arastirmahastanesi.png">]]></description>
+						<description><![CDATA[<img style="max-width:1000px;" src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/yurtlar/ARA%C5%9ETIRMA%20HASTANES%C4%B0%20%20YURDU%20W%C4%B0F%C4%B0.png">]]></description>
 						<LookAt>
 							<longitude>40.5713917731999</longitude>
 							<latitude>41.03616924041844</latitude>
@@ -483,10 +674,9 @@
 				</Folder>
 				<Folder>
 					<name>tenzile-erdogan-yurdu</name>
-					<open>1</open>
 					<Placemark>
 						<name>tenzile-erdogan-yurdu</name>
-						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/tenzileerdogan.png">]]></description>
+						<description><![CDATA[<img style="max-width:1000px;" src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/yurtlar/TENZ%C4%B0LE%20ERDO%C4%9EAN%20KIZ%20YURDU%20W%C4%B0F%C4%B0.png">]]></description>
 						<LookAt>
 							<longitude>40.55095865424065</longitude>
 							<latitude>41.02820329964073</latitude>
@@ -520,11 +710,294 @@
 			</Folder>
 			<Folder>
 				<name>acik-alanlar</name>
+				<Folder>
+					<name>rize-fener-projesi</name>
+					<open>1</open>
+					<Placemark>
+						<name>rize-fener-projesi</name>
+						<description><![CDATA[<img style="max-width:1000px;" src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/FENER%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.48728333687159</longitude>
+							<latitude>41.03766271480434</latitude>
+							<altitude>0</altitude>
+							<heading>6.785313941672226</heading>
+							<tilt>23.36372044516235</tilt>
+							<range>462.927032449843</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.4872833368716,41.03766271480435,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>rize-fener-projesi</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.4863118757906,41.03821320243932,0 40.48680924747394,41.03708253503063,0 40.48800755839433,41.03746022585879,0 40.48744592985393,41.03858063457792,0 40.4863118757906,41.03821320243932,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>isirlik-tabiat-parki</name>
+					<Placemark>
+						<name>isirlik-tabiat-parki</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/ISIRLIK%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.51252886727365</longitude>
+							<latitude>40.99073455734061</latitude>
+							<altitude>0</altitude>
+							<heading>1.35565491974253</heading>
+							<tilt>0</tilt>
+							<range>1293.669412536909</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.51227425893264,40.99165959859598,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>isirlik-tabiat-parki</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.512433836806,40.99320596709858,0 40.51202611636334,40.99295061293715,0 40.51166386798563,40.99263234371948,0 40.51117784184142,40.9923276583184,0 40.5106154564765,40.99182423186235,0 40.51026788895974,40.99136429801592,0 40.50991974725969,40.99103028787691,0 40.50960460941693,40.99064787275444,0 40.50908126428678,40.99038892166042,0 40.50851446271512,40.99017348463835,0 40.50806881704953,40.99007459123887,0 40.50765314335295,40.98985480348623,0 40.50729147233054,40.98957287037408,0 40.50753922990805,40.98909468316887,0 40.50899739955604,40.98919911506754,0 40.51019412368333,40.98917587569216,0 40.51109992671054,40.98933249310086,0 40.51240856492207,40.98954276260952,0 40.51345794252325,40.98950514759497,0 40.51512538726011,40.98955415617044,0 40.51601599545276,40.98961697708395,0 40.51660981625669,40.99018250767403,0 40.51721749132052,40.99052675604161,0 40.51602217767112,40.99152832614613,0 40.5145712287683,40.99158195050585,0 40.51359166716572,40.99211893039005,0 40.51354389062384,40.99307519118574,0 40.512433836806,40.99320596709858,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>rize-kalesi</name>
+					<Placemark>
+						<name>rize-kalesi</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/KALE%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.51080355354279</longitude>
+							<latitude>41.02836677863887</latitude>
+							<altitude>0</altitude>
+							<heading>1.355158220890322</heading>
+							<tilt>44.00809224049869</tilt>
+							<range>546.9304013059977</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.5103340638801,41.02745343279131,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>rize-kalesi</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.51002347900824,41.02778053048122,0 40.50989509628739,41.0272150662956,0 40.51053293720461,41.02723375848566,0 40.51068333525546,41.02711479711995,0 40.51088290823626,41.02723637553648,0 40.51086102778637,41.02745632220601,0 40.51043301899478,41.02768671493592,0 40.51016869581632,41.02785907165296,0 40.51002347900824,41.02778053048122,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>kıble-dagi-mesire-alani</name>
+					<Placemark>
+						<name>kible-dagi-mesire-alani</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/KIBLEDA%C4%9EI%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.61114146349592</longitude>
+							<latitude>40.94866979627987</latitude>
+							<altitude>0</altitude>
+							<heading>0.0002502583744493171</heading>
+							<tilt>26.45161731916517</tilt>
+							<range>990.7878411368487</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.6109309121538,40.94770117335031,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>kible-dagi-mesire-alani</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.6098732856344,40.9512077006947,0 40.60986866462193,40.9511646465086,0 40.60986697658939,40.95110039230188,0 40.60987423709965,40.9510471435439,0 40.60990075940034,40.95100473517678,0 40.60993752418617,40.95096249621024,0 40.60994927812156,40.95095196252959,0 40.60997830298879,40.95088898921296,0 40.60999412538146,40.95084721744264,0 40.61005499494603,40.9507745138734,0 40.61008081343238,40.95073319792254,0 40.61009368424306,40.95071260162385,0 40.61014233823132,40.95065105625658,0 40.61017927233333,40.95060004822683,0 40.61019447866891,40.95055942527384,0 40.61020962478553,40.95051896250931,0 40.61022718263099,40.95045856704894,0 40.61023333910861,40.95040851044195,0 40.61023824263945,40.95036864108871,0 40.61024799224076,40.95028936929281,0 40.61025041776656,40.95026964783394,0 40.6102401374965,40.95019114698827,0 40.61023623849353,40.95014239223661,0 40.61023235851271,40.95009387293091,0 40.61023718824996,40.95005522456619,0 40.61023091207475,40.95002633731482,0 40.61023932840107,40.9499592536577,0 40.61025513505784,40.94991161041986,0 40.61026968795942,40.94987365929246,0 40.61029397739146,40.94983585166816,0 40.61032162277217,40.94977003572834,0 40.61033708462555,40.94972329210481,0 40.61034276003851,40.94967677066404,0 40.6103495352052,40.94962123435511,0 40.61037780808705,40.94954767020209,0 40.61039515972556,40.9494837543172,0 40.61039953845154,40.94944741938798,0 40.61040498890679,40.94940219107436,0 40.61041257698295,40.94933922440562,0 40.61043069986843,40.9492677608098,0 40.61044551684897,40.94922336363719,0 40.61045816475109,40.94919682305619,0 40.61047598658862,40.9491264079924,0 40.61049059128054,40.94908266041385,0 40.61049367809566,40.94905650855313,0 40.61050186826664,40.9489871202624,0 40.6105049241897,40.94896122997395,0 40.6105037071876,40.94889253496851,0 40.61050977529086,40.94884133918231,0 40.61050854864889,40.94877351016122,0 40.61050431919568,40.94873136530008,0 40.61050211670018,40.9486726795714,0 40.6104969212587,40.94863931046827,0 40.61048457532486,40.94858948077373,0 40.61049259733596,40.94852345199697,0 40.61048646039482,40.94849881328523,0 40.61048134108609,40.94846606329004,0 40.61047423523276,40.94844973236688,0 40.61045400221304,40.94839280076253,0 40.61045903690746,40.94835234804489,0 40.6104540065954,40.9483201150613,0 40.61044798769708,40.94829601497137,0 40.61045501145665,40.94824002515935,0 40.61045101927186,40.94820024324112,0 40.61045301727047,40.94818437869216,0 40.6104420873824,40.94812907240316,0 40.61043714750557,40.94809761972351,0 40.61044313338417,40.94805064361547,0 40.61045007765766,40.947996146028,0 40.61045304092389,40.94797289071712,0 40.61046779216876,40.94792655924275,0 40.6104716957459,40.94789580499744,0 40.61047558591818,40.94786515630496,0 40.61047163145275,40.94782699402681,0 40.61045794016677,40.94779658283331,0 40.61046183222708,40.94776627337589,0 40.61046764545856,40.94772100267622,0 40.6104724671825,40.94768345327469,0 40.61047726846665,40.94764606296442,0 40.61047240084546,40.94761626558037,0 40.61046754946544,40.94758656882134,0 40.61045501249504,40.94754958941846,0 40.61045020893475,40.94752011729301,0 40.61042815721957,40.9474907460618,0 40.61041479713066,40.9474614724136,0 40.61041965876032,40.94742501573286,0 40.61042546592697,40.94738146849719,0 40.61043788503949,40.94735255702297,0 40.61045786342769,40.94733093537723,0 40.61047873126003,40.94730219100147,0 40.61050045815771,40.947266395026,0 40.61052876990256,40.94724498689998,0 40.61055791343676,40.94721652628641,0 40.61057669372801,40.94720233080253,0 40.61060656506885,40.94716694625637,0 40.61063631370305,40.9471317072579,0 40.61067437718541,40.94709661208441,0 40.61070386479089,40.94706166150185,0 40.61072482931111,40.94702685472024,0 40.6107281170826,40.94699911312447,0 40.61073976945077,40.94697146093853,0 40.61074302220015,40.94694389975342,0 40.61074707328591,40.94690957404319,0 40.61075030232932,40.94688221362134,0 40.61075352090313,40.94685494186611,0 40.61075752950272,40.94682097596802,0 40.61076311440566,40.94677365352937,0 40.61079186652187,40.94674001210028,0 40.61082050347696,40.94670650560368,0 40.61083927735601,40.94668646601693,0 40.61085950999887,40.94665317461114,0 40.61089606466994,40.94662001437659,0 40.61090718913669,40.94659358313545,0 40.61092645358415,40.94656723511892,0 40.61092933220225,40.9465409726424,0 40.61093291764534,40.94650826153676,0 40.61093648890074,40.9464756798052,0 40.61093791344511,40.94646268320306,0 40.61094288166742,40.94641735634386,0 40.61094570836202,40.94639156734856,0 40.61093379300767,40.94635303754784,0 40.6109226449464,40.94630831440094,0 40.61091816155302,40.94627651874389,0 40.61091369543321,40.94624484725241,0 40.61090853457727,40.94621959875036,0 40.61090410279974,40.94618814842302,0 40.61089171594386,40.9461568210722,0 40.61089600420253,40.94611938598266,0 40.61089885197803,40.94609452579141,0 40.61090381446391,40.94605120474924,0 40.61092245399497,40.94602655304791,0 40.61094034543788,40.94600811351023,0 40.61096608545487,40.94598971562857,0 40.61100097922331,40.94595914733603,0 40.61102067739712,40.94592262197155,0 40.61104683350631,40.94589836314022,0 40.61108200505401,40.94586211410788,0 40.61111639993317,40.94583203223964,0 40.61113507053069,40.94580206607074,0 40.61115367042467,40.94577221335003,0 40.61117338301233,40.9457306095773,0 40.61120904986353,40.9456833296391,0 40.61122850581711,40.94564219377549,0 40.61123302840802,40.94559544704077,0 40.61125064595589,40.94557217703435,0 40.61127697369802,40.94553740219804,0 40.61130211474671,40.94551430436301,0 40.61131795295871,40.94550853980978,0 40.61133325641661,40.94550853826126,0 40.61136386332114,40.94550853516,0 40.61140977364995,40.94550853049762,0 40.61144038051734,40.94550852738234,0 40.61147098737003,40.94550852426148,0 40.61152409721998,40.94551428177581,0 40.61156915352911,40.94552581608958,0 40.61159170686449,40.94553158977239,0 40.61162878112182,40.94554893965301,0 40.61167322069173,40.94557213374246,0 40.61170317923808,40.94558375600432,0 40.61177791200256,40.94561872907695,0 40.61184592898756,40.94564212994968,0 40.6118455936986,40.94564799289002,0 40.61185905281003,40.94568326227319,0 40.61188065218818,40.94571277419908,0 40.61187870625648,40.94574833861095,0 40.61187740405529,40.94577213797545,0 40.611876097893,40.94579600969944,0 40.61185884231007,40.94582595290235,0 40.61185002097325,40.94584397317953,0 40.61180845682978,40.9458861833487,0 40.61179133500632,40.94591040418373,0 40.61177416078776,40.94593469895845,0 40.61174905943914,40.945959069029,0 40.61173099437111,40.94599576256589,0 40.61172153959964,40.94602031859476,0 40.61171166013844,40.94605111994719,0 40.61170888275642,40.94609444052473,0 40.61169893289027,40.94612552840385,0 40.61168894442501,40.9461567368524,0 40.61168649600614,40.94619434598865,0 40.61168362502987,40.94623844574436,0 40.61168197742671,40.94626375377093,0 40.61168795151715,40.94629549939344,0 40.61170200563649,40.9463273685566,0 40.61171651636189,40.94635295362117,0 40.61173107273811,40.94637861905984,0 40.61173797434921,40.94639792171015,0 40.6117595509258,40.94644313827905,0 40.61177349277546,40.94648209510513,0 40.61178010883427,40.94650816963164,0 40.61179453010889,40.94654087856065,0 40.61179302814963,40.94656714073462,0 40.61179933542719,40.94660008537276,0 40.61182244937905,40.94662653376408,0 40.61185456180704,40.94663978731069,0 40.61193571053771,40.94665970367848,0 40.61197590010251,40.94667967257388,0 40.61201647584637,40.94669301022311,0 40.61204062864524,40.94670637111756,0 40.61208105754692,40.94672645231316,0 40.61211357135461,40.94673986597718,0 40.61215416962619,40.94676002796997,0 40.6121785305663,40.9467734966006,0 40.61220293077543,40.94678698693582,0 40.6122354579749,40.94680726382228,0 40.61225995342507,40.94682080865058,0 40.61230110307728,40.94683437346015,0 40.612333841576,40.94685476526561,0 40.61234151632597,40.94688203549008,0 40.61235756039928,40.94690939340801,0 40.6123736566697,40.9469368402112,0 40.61238114267187,40.94697818025871,0 40.61238026642662,40.94701972397767,0 40.61237982668897,40.94704057236796,0 40.61237909139165,40.94707543347202,0 40.6123700606253,40.94710342650656,0 40.61236037795916,40.9471596882656,0 40.61235111168578,40.94719504093957,0 40.61234147853781,40.94724478021575,0 40.61232377108085,40.94727333379437,0 40.61229764937566,40.94729481270596,0 40.61227146249138,40.94731634514776,0 40.61224521018087,40.94733793142453,0 40.61222745923088,40.94735957067791,0 40.6122090008187,40.94740300991715,0 40.61219973685404,40.94742481131819,0 40.61218160618287,40.94745396578627,0 40.61215454126302,40.94749054710964,0 40.61213651913153,40.94751256996379,0 40.61211819026836,40.94754201964504,0 40.61209058085207,40.94758638072785,0 40.6120549980575,40.94760864824953,0 40.6120367273727,40.94763097026877,0 40.61200098555135,40.94765335112942,0 40.61197387611228,40.94767578792284,0 40.61194602390292,40.94771330777885,0 40.61192785026978,40.94772836126989,0 40.61189981667306,40.94776610530732,0 40.61186250181193,40.94781161166983,0 40.61183458340962,40.94784207955297,0 40.61180616896071,40.94788031079703,0 40.61177721856198,40.94792640488442,0 40.61177556034745,40.94795726465246,0 40.61176459771608,40.94799599044834,0 40.61174468656342,40.9480348850224,0 40.6117429618093,40.94806612044687,0 40.61173186155724,40.94810531857457,0 40.61171130997331,40.94815258273387,0 40.61170996478631,40.94817630655777,0 40.61168074314382,40.9482159879031,0 40.61165993079388,40.94826383348973,0 40.61164756687007,40.94831997109033,0 40.61163804064524,40.94832801994546,0 40.61160741741759,40.94838455640844,0 40.61158621675708,40.94843329448113,0 40.61157505837015,40.94846593022108,0 40.61156386031802,40.94849868194319,0 40.61155050736716,40.94856453468508,0 40.61154572085967,40.94863918151125,0 40.6115359826063,40.94864751386585,0 40.61152296770884,40.94870604320948,0 40.61151097717452,40.9487480761198,0 40.61150876217927,40.94878183798865,0 40.61150430811134,40.948849728518,0 40.61149105060458,40.94890953856199,0 40.61148934855768,40.9489352875054,0 40.61148478696531,40.94900429609047,0 40.61147251704922,40.94904768407613,0 40.61145960440094,40.94910001218389,0 40.61143596815057,40.94917023347207,0 40.6114329623629,40.94921438360063,0 40.61142165466023,40.94924097274408,0 40.61140599864743,40.94933013554017,0 40.61140476008963,40.94934806723916,0 40.61139019655064,40.94942012994555,0 40.61137743577612,40.94946544338488,0 40.61137488539557,40.94950184584781,0 40.61137104183622,40.94955670614848,0 40.61136717653888,40.94961187653946,0 40.6113639387174,40.94965809066422,0 40.61136068556346,40.94970452350323,0 40.61135676139737,40.94976053364361,0 40.61135281479516,40.9498168638284,0 40.611359972242,40.9498545951183,0 40.61136584516107,40.94991146330075,0 40.61137175187631,40.9499686587808,0 40.61136846585084,40.95001657472712,0 40.61136317518299,40.95009372154323,0 40.61135851220727,40.95016171525807,0 40.61134383065887,40.95023017273813,0 40.61130691257752,40.95032878340094,0 40.61129264021397,40.95038841216876,0 40.61127971695388,40.95042836049988,0 40.61126165928642,40.95053902835887,0 40.61124562647099,40.95062027212158,0 40.611242662324,40.9506611350892,0 40.61122871512776,40.95071244409029,0 40.61121393780711,40.9507743524271,0 40.61120061144592,40.95081583181191,0 40.61117615162475,40.95086791552934,0 40.61115316248735,40.95089929267806,0 40.61109497124977,40.95098342849041,0 40.61108294249549,40.95100456814802,0 40.61100510440185,40.95106824980091,0 40.61098341312647,40.95107890241902,0 40.6108850594002,40.95113232570986,0 40.61079765251246,40.95117526114379,0 40.6107871981317,40.95117526263184,0 40.61070045228341,40.95120758224272,0 40.61067951164299,40.95120758523124,0 40.61062392713436,40.95123999904222,0 40.61055655443447,40.95128337170926,0 40.61050058183488,40.95131601821375,0 40.61045497699651,40.9513487640105,0 40.61038811852923,40.95138161380927,0 40.61034466267662,40.9513925891062,0 40.61030116205449,40.9514035760186,0 40.610280027285,40.95140357908008,0 40.61021662292256,40.95140358826843,0 40.61015321847852,40.95140359746267,0 40.61011094880338,40.95140360359542,0 40.61005811153376,40.95140361126505,0 40.61000527445297,40.95140361893873,0 40.60997641293931,40.95138167343432,0 40.60992363005623,40.95138168109611,0 40.60987084686655,40.95138168876192,0 40.60980750710759,40.95138169796617,0 40.60978039651972,40.95134886157633,0 40.60976693719182,40.951294353743,0 40.60980448206197,40.95125094098935,0 40.60983891907951,40.9512292987822,0 40.60987620264177,40.95118615109448,0 40.60987765893928,40.95117539258251,0 40.6098732856344,40.9512077006947,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>memisaga-parki-merkez</name>
+					<Placemark>
+						<name>memisaga-parki-merkez</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/MEM%C4%B0%C5%9EA%C4%9EA%20PARKI.png">]]></description>
+						<LookAt>
+							<longitude>40.51828973893036</longitude>
+							<latitude>41.02501858744179</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001256057099428738</heading>
+							<tilt>23.87577071355506</tilt>
+							<range>274.5239723824084</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.51829216734573,41.02507969068488,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>memisaga-parki-merkez</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.51790849412252,41.02541017383301,0 40.51774821716781,41.02516378714247,0 40.51756846113435,41.02522891394263,0 40.51749498401113,41.02510406835749,0 40.51891011981814,41.02479227250718,0 40.519059298637,41.02503948337218,0 40.51790849412252,41.02541017383301,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>meydan-parki-merkez</name>
+					<Placemark>
+						<name>meydan-parki-merkez</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/MEYDAN%20PARKI%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.51678898313585</longitude>
+							<latitude>41.02559674398481</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0008696786256932277</heading>
+							<tilt>24.77923767322206</tilt>
+							<range>326.5307890218846</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.51655783053371,41.02549719177592,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>meydan-parki-merkez</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.51566375399315,41.02575093644447,0 40.5160008973969,41.02543766688838,0 40.51618910580773,41.02530198593711,0 40.5164498107837,41.02518629099335,0 40.51683196701794,41.02517158991498,0 40.51696671539813,41.02518840406443,0 40.51735644453941,41.0256122296234,0 40.51705623938456,41.02578587407162,0 40.51655845173212,41.02602141497877,0 40.51624748723321,41.02596043077453,0 40.51607754096269,41.02594468490912,0 40.51596611128775,41.02592119397521,0 40.51566375399315,41.02575093644447,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>millet-bahcesi</name>
+					<Placemark>
+						<name>millet-bahcesi</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/M%C4%B0LLET%20BAH%C3%87ES%C4%B0%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.5240766878041</longitude>
+							<latitude>41.02614733934826</latitude>
+							<altitude>0</altitude>
+							<heading>0.003903806071412933</heading>
+							<tilt>25.6926337654958</tilt>
+							<range>1488.47574859043</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.52858387371457,41.02639453905758,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>millet-bahcesi</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.53524657917222,41.02600909368532,0 40.53520640705599,41.0273908807451,0 40.52217345371963,41.02884039515146,0 40.5171293376482,41.03096267289095,0 40.51526525495144,41.03015133196892,0 40.51732018294514,41.02818262895384,0 40.52015125475343,41.02783774620381,0 40.5211505580555,41.02725537810069,0 40.52388638327714,41.02697015354882,0 40.52426238742115,41.02619544900484,0 40.52934386877938,41.02598119713385,0 40.53264574828537,41.02593842428617,0 40.53447477758888,41.02593826195669,0 40.53524657917222,41.02600909368532,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>portakallik</name>
+					<Placemark>
+						<name>portakallik</name>
+						<description><![CDATA[<img src="https://github.com/ucoruh/ribel-images/blob/main/images/rifi/acik-alanlar/PORTAKALLIK%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.55141035607399</longitude>
+							<latitude>41.03079917674201</latitude>
+							<altitude>0</altitude>
+							<heading>0.02180842534641112</heading>
+							<tilt>26.91645335634026</tilt>
+							<range>1032.920944898531</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.55309346139632,41.03148284596781,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>portakallik</name>
+						<styleUrl>#msn_ylw-pushpin2</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.55459032594926,41.03193316981308,0 40.55424424713249,41.03235920178821,0 40.54838203301062,41.02973689398743,0 40.54888278115271,41.02926024770851,0 40.55172307320176,41.0305533337705,0 40.55459032594926,41.03193316981308,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
 			</Folder>
 			<Folder>
 				<name>ag-baglantilari</name>
+				<open>1</open>
 				<Folder>
 					<name>yurtlar</name>
+					<open>1</open>
 					<Placemark>
 						<name>link-camionu-ensar</name>
 						<styleUrl>#m_ylw-pushpin1</styleUrl>
@@ -575,46 +1048,98 @@
 							</coordinates>
 						</LineString>
 					</Placemark>
+					<Placemark>
+						<name>link-universite-camionu</name>
+						<styleUrl>#msn_ylw-pushpin</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.50621022174349,41.03803600021079,0 40.49293358090792,41.03596430951549,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
 				</Folder>
 				<Folder>
 					<name>acik-alanlar</name>
-				</Folder>
-			</Folder>
-			<Folder>
-				<name>diger-yurtlar</name>
-				<Folder>
-					<name>universite-yurdu</name>
-					<open>1</open>
 					<Placemark>
-						<name>universite-yurdu</name>
-						<LookAt>
-							<longitude>40.49284396024787</longitude>
-							<latitude>41.03629620309868</latitude>
-							<altitude>0</altitude>
-							<heading>-0.05856944754288696</heading>
-							<tilt>44.3736314825413</tilt>
-							<range>557.698317774369</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_lodging</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>40.49221265072305,41.03564967855635,0</coordinates>
-						</Point>
+						<name>link-fener-kale</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.48725633903307,41.03775532221468,0 40.51015175975439,41.02742823201089,0 
+							</coordinates>
+						</LineString>
 					</Placemark>
 					<Placemark>
-						<name>universite-yurdu</name>
-						<styleUrl>#m_ylw-pushpin0</styleUrl>
-						<Polygon>
+						<name>link-kale-belediye</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
 							<tessellate>1</tessellate>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										40.49183912167944,41.03606880293333,0 40.49116220453026,41.03569009214927,0 40.49095223457682,41.03520478500971,0 40.49133251826054,41.03499969920458,0 40.49164148745891,41.0350642532597,0 40.49212839012993,41.03528415870552,0 40.49350358549164,41.03592934192132,0 40.49329631571518,41.03640835390188,0 40.49183912167944,41.03606880293333,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
+							<coordinates>
+								40.51046636720126,41.02735750698415,0 40.51715127155875,41.02644458417217,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-meydan-belediye</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51723784990488,41.02637619420442,0 40.51683054825927,41.02560406707723,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-belediye-memisaga</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.5173527669956,41.02632189876868,0 40.51793973997021,41.02518918809798,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-belediye-milletbahcesi</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51728462669486,41.02645817691933,0 40.52952227812393,41.02638264291878,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-isirlik-kale</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51260265734076,40.99174773249544,0 40.51034719004419,41.02735054878307,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-kıble-dagi-kale</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.61077207693382,40.94821976074901,0 40.51038682058356,41.02736070778981,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-belediye-portakallik</name>
+						<styleUrl>#m_ylw-pushpin2</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51741195963098,41.02639232460275,0 40.55008920707389,41.03012911526618,0 
+							</coordinates>
+						</LineString>
 					</Placemark>
 				</Folder>
 			</Folder>
@@ -686,7 +1211,7 @@
 					<range>1265.63796157947</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>40.49357231131809,41.03775670939905,0</coordinates>
@@ -694,7 +1219,7 @@
 			</Placemark>
 			<Placemark>
 				<name>universite-fener-kampus</name>
-				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_ylw-pushpin01</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -706,6 +1231,1810 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Tur</name>
+			<gx:Tour>
+				<name>OrnekTur</name>
+				<gx:Playlist>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TRABZON"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="RIZE"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="RIZE"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TRABZON"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="RIZE"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TRABZON"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>1</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.49301284418699</longitude>
+							<latitude>41.03687941065581</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03779952926235252</heading>
+							<tilt>49.31994995726284</tilt>
+							<range>729.2559441487825</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>2.199999926233431e-06</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>1.552471100000048</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.49299527136571</longitude>
+							<latitude>41.03690184098439</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03781106454810935</heading>
+							<tilt>49.32003729905433</tilt>
+							<range>742.0775019358052</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.3177524999999832</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.49253544095284</longitude>
+							<latitude>41.03749859489996</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03811292740157843</heading>
+							<tilt>49.3223318317817</tilt>
+							<range>1078.914834160442</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5116061000001082</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.49228122065798</longitude>
+							<latitude>41.03782647081573</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03827980940061437</heading>
+							<tilt>49.32359822363056</tilt>
+							<range>1264.821036691947</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1803185999999641</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.49190116458377</longitude>
+							<latitude>41.03824095266138</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03852929034077467</heading>
+							<tilt>49.32541648340099</tilt>
+							<range>1531.743217915822</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.4021425999999337</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.497699399999874</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.49415071655725</longitude>
+							<latitude>41.03831644663308</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03705240200180551</heading>
+							<tilt>49.32537804839215</tilt>
+							<range>1526.101814369561</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5113765000000967</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.4999625869448</longitude>
+							<latitude>41.03820380750238</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03323674817507825</heading>
+							<tilt>49.32537476312994</tilt>
+							<range>1525.619645416813</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.509271799999965</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50334689292586</longitude>
+							<latitude>41.03794288564446</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03101486248286946</heading>
+							<tilt>49.3251718446094</tilt>
+							<range>1495.835596014035</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5049452000000656</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50389619236594</longitude>
+							<latitude>41.03943466075891</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03065424524572117</heading>
+							<tilt>49.32544306816789</tilt>
+							<range>1535.645377984152</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1144536000000471</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50396707896613</longitude>
+							<latitude>41.03960120211411</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03060770357835263</heading>
+							<tilt>49.32546570798416</tilt>
+							<range>1538.968284540886</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.6307821999999987</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.5112443000000439</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50493733890226</longitude>
+							<latitude>41.03875999552847</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03000234783886696</heading>
+							<tilt>48.47525978884129</tilt>
+							<range>800.2684577706132</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5045869000000494</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50530874671167</longitude>
+							<latitude>41.03851643991221</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02975586913782357</heading>
+							<tilt>48.71153254615466</tilt>
+							<range>537.0965463328777</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5041014000000814</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.5055105346526</longitude>
+							<latitude>41.03836484198001</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02960713425684205</heading>
+							<tilt>47.20141059232193</tilt>
+							<range>401.2980662133857</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.3695805999999493</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50563337558535</longitude>
+							<latitude>41.03828823143809</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02951887518896757</heading>
+							<tilt>46.68240331825516</tilt>
+							<range>322.8589636123506</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.9851462000000311</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50562411666134</longitude>
+							<latitude>41.03829607602676</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02952496066395246</heading>
+							<tilt>46.68243203248149</tilt>
+							<range>327.2557037038268</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5070361999999022</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50493346329285</longitude>
+							<latitude>41.0388956389261</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02997836551329908</heading>
+							<tilt>46.68458995566645</tilt>
+							<range>657.4250984064771</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.3941730000000234</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50489249071901</longitude>
+							<latitude>41.03892881598061</latitude>
+							<altitude>0</altitude>
+							<heading>-0.03000523790949328</heading>
+							<tilt>46.68471566281639</tilt>
+							<range>676.646600231682</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.06823800000006486</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.4992331999999351</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50649707553031</longitude>
+							<latitude>41.03738974120704</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02895173356791478</heading>
+							<tilt>46.68464565319854</tilt>
+							<range>665.9352696959047</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.09007020000001376</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.50679257039849</longitude>
+							<latitude>41.03715402128235</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0287577271220455</heading>
+							<tilt>46.68466970882561</tilt>
+							<range>669.6157813851921</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5366908999999396</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.5068935913183</longitude>
+							<latitude>41.03706817758884</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02869140269929244</heading>
+							<tilt>46.68467876073662</tilt>
+							<range>671.0007143354978</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4968650999999227</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51086513740891</longitude>
+							<latitude>41.03206171592077</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02608405346593397</heading>
+							<tilt>46.68473056402852</tilt>
+							<range>678.9264231507721</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.3394554000000198</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51126797026343</longitude>
+							<latitude>41.03161660042791</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02581960419737798</heading>
+							<tilt>46.68472858576911</tilt>
+							<range>678.6237477893725</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.7839780000000474</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.4980776000001015</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51116165249146</longitude>
+							<latitude>41.03188944195352</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02588939055016898</heading>
+							<tilt>46.68882617708454</tilt>
+							<range>1305.588985687935</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1701357999999118</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51111694575619</longitude>
+							<latitude>41.03150678231936</latitude>
+							<altitude>51.39325079132144</altitude>
+							<heading>-0.02591873305360657</heading>
+							<tilt>46.69006261052921</tilt>
+							<range>1494.718690908421</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>1.953573300000016</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51115682918171</longitude>
+							<latitude>41.03198130928754</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02589255560269843</heading>
+							<tilt>46.69034017126508</tilt>
+							<range>1537.24107145663</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4952501999999868</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51198093796238</longitude>
+							<latitude>41.03140505547099</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02537553756393983</heading>
+							<tilt>48.29949631093083</tilt>
+							<range>830.858456197594</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4774589000001015</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51233358805428</longitude>
+							<latitude>41.03121449787181</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02519905782029618</heading>
+							<tilt>51.4120413190705</tilt>
+							<range>573.5287280596631</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4026815999999371</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51249082168455</longitude>
+							<latitude>41.03107122577058</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02502386542073242</heading>
+							<tilt>48.66348268576827</tilt>
+							<range>453.5094796756375</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>5.11982480000006</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.5121362999999519</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51298544252545</longitude>
+							<latitude>41.03062743852922</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02469916132236153</heading>
+							<tilt>48.66348066572493</tilt>
+							<range>453.2100007900996</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5085638999998991</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51354789482961</longitude>
+							<latitude>41.03013038775057</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02432993127377695</heading>
+							<tilt>48.66346964172254</tilt>
+							<range>451.575578366585</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.3261050999999497</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51391904086435</longitude>
+							<latitude>41.02973693957559</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02408628906927755</heading>
+							<tilt>48.66348998812171</tilt>
+							<range>454.5921360472412</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.7496137000000545</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51391946193777</longitude>
+							<latitude>41.02972406579182</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02408601311430071</heading>
+							<tilt>48.66348866484064</tilt>
+							<range>454.3959694800124</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4977182000000084</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51517275923647</longitude>
+							<latitude>41.02857744539118</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02326328875274468</heading>
+							<tilt>48.66346195158297</tilt>
+							<range>450.4354035524276</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.2288773999999876</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51544182428943</longitude>
+							<latitude>41.02837115618793</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02308666354241686</heading>
+							<tilt>48.66347086680382</tilt>
+							<range>451.757187300782</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.285320400000046</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.3961156999999957</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51538758836464</longitude>
+							<latitude>41.02804598857771</latitude>
+							<altitude>9.388558658159184</altitude>
+							<heading>-0.02312226295816006</heading>
+							<tilt>48.66556314153176</tilt>
+							<range>761.972865754784</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>1.409018400000036</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.5070176000000401</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51726297031445</longitude>
+							<latitude>41.02719709441406</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0218912496213716</heading>
+							<tilt>48.66569509825649</tilt>
+							<range>781.5388758710133</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.03053130000000692</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.5172936558504</longitude>
+							<latitude>41.02719661085123</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02187110840061329</heading>
+							<tilt>48.66569460537503</tilt>
+							<range>781.4658026776997</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.3957467999999835</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.4511347000001251</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51609754369896</longitude>
+							<latitude>41.0278094532887</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02265614051379802</heading>
+							<tilt>48.66990309339148</tilt>
+							<range>1405.44125340482</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.8962738000000172</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.2271230999999716</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51866579599049</longitude>
+							<latitude>41.0278457374628</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02097034856314128</heading>
+							<tilt>48.66993856627687</tilt>
+							<range>1410.699846772143</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5124958000001243</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.51911347140059</longitude>
+							<latitude>41.02782480900368</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02067649281480889</heading>
+							<tilt>48.66993753832815</tilt>
+							<range>1410.547395530087</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4969642999999451</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.52616256434627</longitude>
+							<latitude>41.02685308920127</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01604951973320044</heading>
+							<tilt>48.66995193468689</tilt>
+							<range>1412.681733282907</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1322523000000047</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.52731415155682</longitude>
+							<latitude>41.02655121152902</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01529363825758348</heading>
+							<tilt>48.66993068004074</tilt>
+							<range>1409.530831144568</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.4827644000000646</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.4609447999999929</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.5343867016791</longitude>
+							<latitude>41.02658916821684</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01065128057430087</heading>
+							<tilt>48.66995494710783</tilt>
+							<range>1413.128397232769</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4982887999999548</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.53450554133641</longitude>
+							<latitude>41.02654495242017</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01057327295044873</heading>
+							<tilt>48.66995363346781</tilt>
+							<range>1412.933427225354</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5069298999999319</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.54389097879555</longitude>
+							<latitude>41.02719259335934</latitude>
+							<altitude>0</altitude>
+							<heading>-0.004412759197205064</heading>
+							<tilt>48.66994630381365</tilt>
+							<range>1411.847013605618</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4971353000000818</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.54986053982756</longitude>
+							<latitude>41.02720811719615</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0004943673116627443</heading>
+							<tilt>48.66985852655884</tilt>
+							<range>1398.834528659468</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.507688499999972</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55086233582759</longitude>
+							<latitude>41.02797812964324</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001631657495651157</heading>
+							<tilt>48.66985671584774</tilt>
+							<range>1398.566121018354</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4985416999999188</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55077249663728</longitude>
+							<latitude>41.02805635978364</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001041917495805904</heading>
+							<tilt>48.66986444026269</tilt>
+							<range>1399.711149059806</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1324819999999818</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55076066938845</longitude>
+							<latitude>41.02806442828016</latitude>
+							<altitude>0</altitude>
+							<heading>9.642601741964742e-05</heading>
+							<tilt>48.66986492181341</tilt>
+							<range>1399.782477720272</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.01518099999998412</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.5080751000000419</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55084595773409</longitude>
+							<latitude>41.02811096591693</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001631223931088087</heading>
+							<tilt>53.04584587186822</tilt>
+							<range>708.9103212745297</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5009919999999966</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55087794375804</longitude>
+							<latitude>41.02813889568993</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001839506063351634</heading>
+							<tilt>51.65058033131507</tilt>
+							<range>451.3296553173342</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5093343999999433</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55087102791111</longitude>
+							<latitude>41.02814691043783</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001771394219780328</heading>
+							<tilt>46.09623766635855</tilt>
+							<range>339.9575338737648</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4243344000000207</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55081570553394</longitude>
+							<latitude>41.02815595857089</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001341381597033229</heading>
+							<tilt>41.86500676078193</tilt>
+							<range>269.5493973509916</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.496758600000021</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55078214966144</longitude>
+							<latitude>41.02816241105644</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001033843024212309</heading>
+							<tilt>38.994416060334</tilt>
+							<range>227.0138790786618</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5101975999999695</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55083827202888</longitude>
+							<latitude>41.02815948567091</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001530202421163177</heading>
+							<tilt>43.72714964742816</tilt>
+							<range>299.3340090877463</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5099513999999772</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55106429380769</longitude>
+							<latitude>41.02813784817377</latitude>
+							<altitude>0</altitude>
+							<heading>0.0003050644759456793</heading>
+							<tilt>47.33045485115903</tilt>
+							<range>589.8106022748395</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5024190000000317</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55151679583725</longitude>
+							<latitude>41.0280622997576</latitude>
+							<altitude>0</altitude>
+							<heading>0.000602066343669977</heading>
+							<tilt>47.33426575857808</tilt>
+							<range>1166.816345670288</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1532630000000381</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55167546051909</longitude>
+							<latitude>41.02806788969507</latitude>
+							<altitude>0</altitude>
+							<heading>0.0007061989237828496</heading>
+							<tilt>47.33563410898401</tilt>
+							<range>1373.996075636685</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.4363948000000164</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.5112085999999181</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55894702610437</longitude>
+							<latitude>41.03154670511793</latitude>
+							<altitude>0</altitude>
+							<heading>0.005479487866734645</heading>
+							<tilt>47.33560014446716</tilt>
+							<range>1368.854422422093</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5018196999999418</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56327214643152</longitude>
+							<latitude>41.03353836359352</latitude>
+							<altitude>0</altitude>
+							<heading>0.008318793499686197</heading>
+							<tilt>47.33554330045257</tilt>
+							<range>1360.248987064605</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5030437000000347</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56662981507166</longitude>
+							<latitude>41.03645525887003</latitude>
+							<altitude>0</altitude>
+							<heading>0.01052297786278963</heading>
+							<tilt>47.33553457563615</tilt>
+							<range>1358.92807843217</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4199015999998892</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56917173252018</longitude>
+							<latitude>41.03782406043715</latitude>
+							<altitude>0</altitude>
+							<heading>0.01219172217512105</heading>
+							<tilt>47.33552527436235</tilt>
+							<range>1357.520002760993</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.2652431000000206</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.0254015000000436</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.0003869999999324136</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.349230700000021</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.47200179999993</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56986107461308</longitude>
+							<latitude>41.0370730325615</latitude>
+							<altitude>0</altitude>
+							<heading>0.01247962701139859</heading>
+							<tilt>53.21435785310584</tilt>
+							<range>810.4689076549244</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5023677999998881</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.57016595308485</longitude>
+							<latitude>41.03682604879707</latitude>
+							<altitude>0</altitude>
+							<heading>0.01258447855491581</heading>
+							<tilt>55.81909814847677</tilt>
+							<range>621.2983446393728</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5040454999999611</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.57047120736556</longitude>
+							<latitude>41.03658313912943</latitude>
+							<altitude>0</altitude>
+							<heading>0.01266140162416703</heading>
+							<tilt>58.74422937895664</tilt>
+							<range>436.523984326748</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4994358999999804</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.57064291536724</longitude>
+							<latitude>41.03642105415845</latitude>
+							<altitude>0</altitude>
+							<heading>0.01271683484290773</heading>
+							<tilt>60.00256501013572</tilt>
+							<range>329.7137273240763</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1668731999998272</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.57067747510595</longitude>
+							<latitude>41.03637780492134</latitude>
+							<altitude>0</altitude>
+							<heading>0.01273952728495142</heading>
+							<tilt>60.00238814261217</tilt>
+							<range>306.9750357639929</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4972426999999016</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.57054776720413</longitude>
+							<latitude>41.03641112143976</latitude>
+							<altitude>5.899422668557233</altitude>
+							<heading>0.01265436504796728</heading>
+							<tilt>60.00291071913433</tilt>
+							<range>373.2769905357245</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4958579000000327</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56995495985884</longitude>
+							<latitude>41.03713442449074</latitude>
+							<altitude>0</altitude>
+							<heading>0.01226520933679492</heading>
+							<tilt>60.00587084199513</tilt>
+							<range>754.643250651071</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4954355999999507</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56904932947158</longitude>
+							<latitude>41.03782227244601</latitude>
+							<altitude>0</altitude>
+							<heading>0.0117159832002235</heading>
+							<tilt>56.07569189101157</tilt>
+							<range>1286.992529610615</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.02133150000008754</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725290019</longitude>
+							<latitude>41.03780370419246</latitude>
+							<altitude>0</altitude>
+							<heading>0.01169347152203883</heading>
+							<tilt>55.38478821028846</tilt>
+							<range>1305.713201960696</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.2397088999999823</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.0007727999999360691</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>2.126045700000077</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.0005688999998483268</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725097623</longitude>
+							<latitude>41.03780370066688</latitude>
+							<altitude>0</altitude>
+							<heading>0.0116934694288744</heading>
+							<tilt>55.38478820691331</tilt>
+							<range>1305.712876267542</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.01481730000000425</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.000480300000049283</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724241837</longitude>
+							<latitude>41.03780369403422</latitude>
+							<altitude>0</altitude>
+							<heading>0.2701344589563093</heading>
+							<tilt>55.38478866863467</tilt>
+							<range>1305.712284858085</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.01571530000001076</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.0006076999999322652</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724810606</longitude>
+							<latitude>41.03780370065139</latitude>
+							<altitude>0</altitude>
+							<heading>0.7365328025834706</heading>
+							<tilt>55.38478941378498</tilt>
+							<range>1305.712909859674</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.01726550000000771</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.0006697000000031039</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725324219</longitude>
+							<latitude>41.03780369580499</latitude>
+							<altitude>0</altitude>
+							<heading>1.207723356324102</heading>
+							<tilt>55.38479001575969</tilt>
+							<range>1305.712392508352</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.01603499999998803</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.0005237999999962994</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725200371</longitude>
+							<latitude>41.03780369972326</latitude>
+							<altitude>0</altitude>
+							<heading>1.359121553873536</heading>
+							<tilt>55.3847900778527</tilt>
+							<range>1305.712799906012</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.01494819999993524</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.0008034999999608772</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.5690072541331</longitude>
+							<latitude>41.03780370392603</latitude>
+							<altitude>0</altitude>
+							<heading>1.258532486067634</heading>
+							<tilt>55.38478981320564</tilt>
+							<range>1305.71321217908</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01621050000005653</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724566923</longitude>
+							<latitude>41.03780369675031</latitude>
+							<altitude>0</altitude>
+							<heading>1.156439474616903</heading>
+							<tilt>55.38478955425404</tilt>
+							<range>1305.712553861356</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01517250000006243</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725109429</longitude>
+							<latitude>41.03780369778075</latitude>
+							<altitude>0</altitude>
+							<heading>1.04501410502843</heading>
+							<tilt>55.38478930517644</tilt>
+							<range>1305.712624104704</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01705120000008264</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724723799</longitude>
+							<latitude>41.03780369850301</latitude>
+							<altitude>0</altitude>
+							<heading>0.9311000011721926</heading>
+							<tilt>55.38478907647753</tilt>
+							<range>1305.712725719117</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01863519999994878</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724669379</longitude>
+							<latitude>41.03780370004642</latitude>
+							<altitude>0</altitude>
+							<heading>0.8161216100254872</heading>
+							<tilt>55.38478887359317</tilt>
+							<range>1305.712885806712</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.0157353999999259</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725502353</longitude>
+							<latitude>41.03780370672324</latitude>
+							<altitude>0</altitude>
+							<heading>0.6993960052345393</heading>
+							<tilt>55.38478870067579</tilt>
+							<range>1305.713495653011</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.0164374000000862</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725528224</longitude>
+							<latitude>41.03780370596096</latitude>
+							<altitude>0</altitude>
+							<heading>0.5868406965161237</heading>
+							<tilt>55.38478855325014</tilt>
+							<range>1305.713414866003</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01583110000001398</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.5690072528113</longitude>
+							<latitude>41.03780370280808</latitude>
+							<altitude>0</altitude>
+							<heading>0.4876171392505213</heading>
+							<tilt>55.38478844245849</tilt>
+							<range>1305.7131140538</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01550559999998313</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725411001</longitude>
+							<latitude>41.03780371200462</latitude>
+							<altitude>0</altitude>
+							<heading>0.3728673998801442</heading>
+							<tilt>55.38478835253803</tilt>
+							<range>1305.714030994328</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.0150756000000456</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724558533</longitude>
+							<latitude>41.03780370589719</latitude>
+							<altitude>0</altitude>
+							<heading>0.2709289230162916</heading>
+							<tilt>55.38478828114864</tilt>
+							<range>1305.713486543406</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01556639999989784</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725872117</longitude>
+							<latitude>41.03780370785287</latitude>
+							<altitude>0</altitude>
+							<heading>0.1681341707882007</heading>
+							<tilt>55.38478823908687</tilt>
+							<range>1305.713583031152</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01695450000011078</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724947069</longitude>
+							<latitude>41.03780370637383</latitude>
+							<altitude>0</altitude>
+							<heading>0.06064547314401788</heading>
+							<tilt>55.38478821488766</tilt>
+							<range>1305.713518012879</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.02279309999994439</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900725561384</longitude>
+							<latitude>41.03780370271967</latitude>
+							<altitude>0</altitude>
+							<heading>0.02083177621129464</heading>
+							<tilt>55.38478820889195</tilt>
+							<range>1305.713104140244</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01694139999995059</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56900724830771</longitude>
+							<latitude>41.03780370185071</latitude>
+							<altitude>0</altitude>
+							<heading>0.01296780174809191</heading>
+							<tilt>55.38478820794611</tilt>
+							<range>1305.713077615269</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.01689460000000054</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.000335199999994984</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.5690072481045</longitude>
+							<latitude>41.03780370376741</latitude>
+							<altitude>0</altitude>
+							<heading>0.01169346587661776</heading>
+							<tilt>55.38478820986267</tilt>
+							<range>1305.713273556289</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.4853758000000425</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.5059660000001713</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56947498999688</longitude>
+							<latitude>41.03755515781326</latitude>
+							<altitude>0</altitude>
+							<heading>33.46037446143647</heading>
+							<tilt>55.38464965814308</tilt>
+							<range>1286.972107472086</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.510591399999953</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56959965302271</longitude>
+							<latitude>41.03729245212161</latitude>
+							<altitude>0</altitude>
+							<heading>58.58038009143685</heading>
+							<tilt>55.38453497412524</tilt>
+							<range>1271.45948275675</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.42347570000004</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56961868401859</longitude>
+							<latitude>41.03716610387732</latitude>
+							<altitude>0</altitude>
+							<heading>72.23608405225465</heading>
+							<tilt>55.38449671756374</tilt>
+							<range>1266.284694521641</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4909729999999399</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56961016138703</longitude>
+							<latitude>41.03705862957089</latitude>
+							<altitude>0</altitude>
+							<heading>84.78541453872334</heading>
+							<tilt>55.384470269684</tilt>
+							<range>1262.707266186577</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5006189000000631</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56954701677669</longitude>
+							<latitude>41.03689188414138</latitude>
+							<altitude>0</altitude>
+							<heading>106.7298471483486</heading>
+							<tilt>55.3844415524135</tilt>
+							<range>1258.82276422028</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4994722999999794</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56942078098078</longitude>
+							<latitude>41.03674137190556</latitude>
+							<altitude>0</altitude>
+							<heading>130.6072062581972</heading>
+							<tilt>55.38443270660833</tilt>
+							<range>1257.626284040241</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4857801000000563</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56901117346078</longitude>
+							<latitude>41.03652836597175</latitude>
+							<altitude>0</altitude>
+							<heading>178.1369392520024</heading>
+							<tilt>55.38450224837776</tilt>
+							<range>1267.032854801144</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4787267000000384</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56869754638755</longitude>
+							<latitude>41.03650818892596</latitude>
+							<altitude>0</altitude>
+							<heading>-156.8704928993584</heading>
+							<tilt>55.38457014521362</tilt>
+							<range>1276.216881568452</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.4561926999999741</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56840067770766</longitude>
+							<latitude>41.03654668884573</latitude>
+							<altitude>0</altitude>
+							<heading>-137.1391683298142</heading>
+							<tilt>55.3846633987101</tilt>
+							<range>1288.831014269476</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.282031800000027</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TaşlıCreek"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>1.567436100000009</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.5016618999999309</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56660878042666</longitude>
+							<latitude>41.03566408338207</latitude>
+							<altitude>0</altitude>
+							<heading>-137.1403448350551</heading>
+							<tilt>55.38463892526055</tilt>
+							<range>1285.52069927532</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.01541850000000977</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56653912877825</longitude>
+							<latitude>41.03562891313989</latitude>
+							<altitude>0</altitude>
+							<heading>-137.1403905689452</heading>
+							<tilt>55.38464415376173</tilt>
+							<range>1286.227600597379</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.9316726000000699</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56650689951695</longitude>
+							<latitude>41.03560271778179</latitude>
+							<altitude>0</altitude>
+							<heading>-137.1404117269655</heading>
+							<tilt>55.38464468861456</tilt>
+							<range>1286.299880774024</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.1658928000000515</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56618659927312</longitude>
+							<latitude>41.03534235401121</latitude>
+							<altitude>0</altitude>
+							<heading>-137.1406220117175</heading>
+							<tilt>55.38465541571037</tilt>
+							<range>1287.751185526382</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.8044838000000709</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56613729981657</longitude>
+							<latitude>41.03529791128572</latitude>
+							<altitude>0</altitude>
+							<heading>-137.1584166224453</heading>
+							<tilt>55.54457347570909</tilt>
+							<range>1293.09400718814</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.505847200000062</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56447154612598</longitude>
+							<latitude>41.03448018142997</latitude>
+							<altitude>70.49971208671347</altitude>
+							<heading>-135.2628917710881</heading>
+							<tilt>61.38827804387525</tilt>
+							<range>1399.6839862779</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.5084957000000259</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55938341713347</longitude>
+							<latitude>41.03272315673493</latitude>
+							<altitude>52.23893361844345</altitude>
+							<heading>-129.5892007988452</heading>
+							<tilt>67.27235656630764</tilt>
+							<range>1817.399245261541</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.2293791000000738</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55559087358544</longitude>
+							<latitude>41.03209772474708</latitude>
+							<altitude>0</altitude>
+							<heading>-125.2493360059914</heading>
+							<tilt>68.9304484745643</tilt>
+							<range>2113.507927674838</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.7570066000000679</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>0.504646399999956</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56104650097852</longitude>
+							<latitude>41.03455160189284</latitude>
+							<altitude>0</altitude>
+							<heading>-125.2457535971166</heading>
+							<tilt>68.93037701263121</tilt>
+							<range>2104.982938118446</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>0.3916714000000638</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56053851978304</longitude>
+							<latitude>41.03564393506981</latitude>
+							<altitude>0</altitude>
+							<heading>-125.2460867724052</heading>
+							<tilt>68.93047010795893</tilt>
+							<range>2116.089000755154</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.03602060000002894</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TRABZON"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.000839299999938703</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="RIZE"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>0.009728799999948023</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56043438113539</longitude>
+							<latitude>41.03572934150698</latitude>
+							<altitude>0</altitude>
+							<heading>-125.2461551130534</heading>
+							<tilt>68.93048488952044</tilt>
+							<range>2117.85227845453</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.0262979000000314</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TRABZON"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.0005510000000867876</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="RIZE"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>0.05414089999999305</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.56031647548443</longitude>
+							<latitude>41.03583559487333</latitude>
+							<altitude>0</altitude>
+							<heading>-125.2462324856336</heading>
+							<tilt>68.9304961057923</tilt>
+							<range>2119.19056449514</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.02516350000007606</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="RIZE"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.0004604999999173742</gx:duration>
+</gx:Wait>
+					<gx:AnimatedUpdate>
+						<Update>
+							<targetHref></targetHref>
+							<Change><Placemark targetId="TRABZON"><gx:balloonVisibility>0</gx:balloonVisibility></Placemark></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>0.1701027999999951</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<gx:horizFov>59.99999999999999</gx:horizFov>
+							<longitude>40.55965983833164</longitude>
+							<latitude>41.03619418691867</latitude>
+							<altitude>0</altitude>
+							<heading>-125.2466634786344</heading>
+							<tilt>68.93058946914283</tilt>
+							<range>2130.327547263661</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
 		</Folder>
 	</Folder>
 </Document>
