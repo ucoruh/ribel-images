@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RizeBelediyesi.kml</name>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>804411ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>802807ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_police">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_police</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>80ffaa00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_lodging">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>80ffaa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_police">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_police">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_lodging">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_lodging">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>804411ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>802807ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>RizeBelediyesi</name>
+		<open>1</open>
+		<Folder>
+			<name>Rifi</name>
+			<open>1</open>
+			<Folder>
+				<name>yurtlar</name>
+				<Folder>
+					<name>camionu-kyk-yurdu</name>
+					<Placemark>
+						<name>camionu-kyk-yurdu</name>
+						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/camionu.png">]]></description>
+						<LookAt>
+							<longitude>40.50621400208126</longitude>
+							<latitude>41.03811909894164</latitude>
+							<altitude>0</altitude>
+							<heading>-0.008496205200329513</heading>
+							<tilt>33.85573114994975</tilt>
+							<range>262.2401139331892</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.50617300969081,41.03809016506945,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>camionu-kyk-yurdu</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.505847703758,41.03816273440962,0 40.50635848253701,41.03780025329667,0 40.50654049525433,41.03794336105928,0 40.50604574206057,41.03829505988397,0 40.505847703758,41.03816273440962,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>ensar-yurdu</name>
+					<open>1</open>
+					<Placemark>
+						<name>ensar-yurdu</name>
+						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/ensarvesgk.png">]]></description>
+						<LookAt>
+							<longitude>40.51294342345034</longitude>
+							<latitude>41.03082829243515</latitude>
+							<altitude>0</altitude>
+							<heading>-0.004419588877051793</heading>
+							<tilt>30.2394966276744</tilt>
+							<range>247.3564430063885</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.51332826247051,41.03097075482605,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ensar-yurdu</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.51288687530311,41.03101233862213,0 40.51313174389455,41.03076791217613,0 40.51363252260155,41.03105668930605,0 40.51338084233826,41.0313106053332,0 40.51288687530311,41.03101233862213,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>sgk-kyk-yurdu</name>
+					<open>1</open>
+					<Placemark>
+						<name>sgk-kyk-yurdu</name>
+						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/ensarvesgk.png">]]></description>
+						<LookAt>
+							<longitude>40.51294342345034</longitude>
+							<latitude>41.03082829243515</latitude>
+							<altitude>0</altitude>
+							<heading>-0.004419588877051793</heading>
+							<tilt>30.2394966276744</tilt>
+							<range>247.3564430063885</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.51255377139204,41.03071285007343,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>sgk-kyk-yurdu</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.51271281924596,41.03101918546464,0 40.51205497189932,41.03097448964855,0 40.5117295355724,41.03076186618164,0 40.51209997580409,41.03044184976785,0 40.51218420585854,41.03048415080507,0 40.51227222155831,41.03042207557512,0 40.51245310689085,41.03052512573377,0 40.51257911587781,41.03043816646413,0 40.51295179635508,41.03068542530674,0 40.51271281924596,41.03101918546464,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>arastirma-yesilcay-kyk-yurdu</name>
+					<open>1</open>
+					<Placemark>
+						<name>yesilcay-kyk-yurdu</name>
+						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/arastirmahastanesi.png">]]></description>
+						<LookAt>
+							<longitude>40.5713917731999</longitude>
+							<latitude>41.03616924041844</latitude>
+							<altitude>0</altitude>
+							<heading>-145.0051767063107</heading>
+							<tilt>24.98114935587958</tilt>
+							<range>281.7674478301356</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.57139177319991,41.03616924041845,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>yesilcay-kyk-yurdu</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.57191168745549,41.03661536688789,0 40.57064515489842,41.0364155147439,0 40.56979922987369,41.03637188934622,0 40.57001700074798,41.03595313546511,0 40.57054598452545,41.03554032272081,0 40.57131469469186,41.03560811602581,0 40.57175960818621,41.03567275340368,0 40.57213536778073,41.03591738186749,0 40.57191168745549,41.03661536688789,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>tenzile-erdogan-yurdu</name>
+					<open>1</open>
+					<Placemark>
+						<name>tenzile-erdogan-yurdu</name>
+						<description><![CDATA[<img style="max-width:500px;" src="../rifi/yurtlar/tenzileerdogan.png">]]></description>
+						<LookAt>
+							<longitude>40.55095865424065</longitude>
+							<latitude>41.02820329964073</latitude>
+							<altitude>0</altitude>
+							<heading>-0.02726893170028589</heading>
+							<tilt>25.76155060831611</tilt>
+							<range>242.6182130358054</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.55058383235111,41.02831840550738,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>tenzile-erdogan-yurdu</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.55060407817685,41.02814644947192,0 40.55077726579167,41.02822252830073,0 40.55058059129522,41.02847065880407,0 40.55039738710503,41.02840229225565,0 40.55060407817685,41.02814644947192,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>acik-alanlar</name>
+			</Folder>
+			<Folder>
+				<name>ag-baglantilari</name>
+				<Folder>
+					<name>yurtlar</name>
+					<Placemark>
+						<name>link-camionu-ensar</name>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.50624027523049,41.03802949506538,0 40.51325363834893,41.03103255714896,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>lnk-ensar-sgk</name>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51315127484995,41.03103253610043,0 40.5123885652105,41.03075669493165,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-sgk-belediye</name>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51239844678752,41.03072138759055,0 40.51723328428881,41.02648843408696,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-belediye-tenzile</name>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51724743246872,41.02643868422235,0 40.5505691647455,41.02829590010737,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<name>link-tenzile-belediye</name>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.55061141711284,41.02830427085527,0 40.57129724995527,41.0362111289154,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>acik-alanlar</name>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>diger-yurtlar</name>
+				<Folder>
+					<name>universite-yurdu</name>
+					<open>1</open>
+					<Placemark>
+						<name>universite-yurdu</name>
+						<LookAt>
+							<longitude>40.49284396024787</longitude>
+							<latitude>41.03629620309868</latitude>
+							<altitude>0</altitude>
+							<heading>-0.05856944754288696</heading>
+							<tilt>44.3736314825413</tilt>
+							<range>557.698317774369</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_lodging</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.49221265072305,41.03564967855635,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>universite-yurdu</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.49183912167944,41.03606880293333,0 40.49116220453026,41.03569009214927,0 40.49095223457682,41.03520478500971,0 40.49133251826054,41.03499969920458,0 40.49164148745891,41.0350642532597,0 40.49212839012993,41.03528415870552,0 40.49350358549164,41.03592934192132,0 40.49329631571518,41.03640835390188,0 40.49183912167944,41.03606880293333,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>TrafficCounter</name>
+		</Folder>
+		<Folder>
+			<name>BelediyeBinası</name>
+			<Placemark>
+				<name>Rize Belediyesi</name>
+				<LookAt>
+					<longitude>40.51645806166412</longitude>
+					<latitude>41.02682348896347</latitude>
+					<altitude>0</altitude>
+					<heading>3.419030337528444</heading>
+					<tilt>25.06919241949726</tilt>
+					<range>764.360568209876</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_police</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.51732000075396,41.02641132632399,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BelediyeBinası</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								40.51683352863292,41.02650810088176,0 40.51739616483007,41.02615331687117,0 40.51764825806849,41.02658473263499,0 40.51742734461224,41.02672565935114,0 40.51683352863292,41.02650810088176,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Toki-Carsi-Projesi</name>
+			<Placemark>
+				<name>Rize Merkez Çarşı Projesi</name>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								40.51793357332279,41.02690984388668,0 40.51723910737233,41.02582725247178,0 40.51886507678434,41.02523334967718,0 40.51983063329245,41.02495927036298,0 40.5202975700055,41.02580018182169,0 40.5192645942886,41.0260960947648,0 40.518304324221,41.02663266604223,0 40.51793357332279,41.02690984388668,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Universite-Fener-Kampus</name>
+			<Placemark>
+				<name>universite-fener-kampus</name>
+				<LookAt>
+					<longitude>40.4949608583455</longitude>
+					<latitude>41.0378983065014</latitude>
+					<altitude>0</altitude>
+					<heading>-0.05662036571239887</heading>
+					<tilt>48.27464843686989</tilt>
+					<range>1265.63796157947</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.49357231131809,41.03775670939905,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>universite-fener-kampus</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								40.49123230343697,41.0376549207742,0 40.49157170811337,41.03731613581802,0 40.49171784890961,41.03736360298475,0 40.49198423224396,41.03723390173679,0 40.49190962642802,41.03714003397835,0 40.49187764481006,41.03695820969358,0 40.49211819754761,41.03664986109299,0 40.49228314551078,41.03651409056197,0 40.49239088426864,41.03622636241612,0 40.49330396460174,41.03638845237549,0 40.49354565450595,41.03593103357865,0 40.49400370638912,41.03616458376602,0 40.4948666367785,41.03628454879635,0 40.49612168344132,41.03634920040646,0 40.49788556710976,41.03756953145638,0 40.49644382360557,41.03795306343221,0 40.49528615406341,41.03794093310584,0 40.49489140973313,41.03881225724341,0 40.49123230343697,41.0376549207742,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
