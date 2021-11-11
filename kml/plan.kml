@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>RizeBelediyesi.kml</name>
+	<name>plan.kml</name>
 	<open>1</open>
-	<Style id="sn_ylw-pushpin">
+	<Style id="sh_lodging0">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_lodging0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/10.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/10-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -14,31 +58,32 @@
 		<BalloonStyle>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
-			<width>4</width>
+			<color>804411ff</color>
 		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin1">
+	<StyleMap id="msn_10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			<styleUrl>#sn_10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+			<styleUrl>#sh_10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl1">
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -50,45 +95,6 @@
 			<color>ff0000ff</color>
 			<width>4</width>
 		</LineStyle>
-	</Style>
-	<StyleMap id="msn_picnic">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_picnic</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_picnic</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_lodging">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_lodging0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_lodging</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_lodging0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_lodging</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_lodging0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_lodging">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<StyleMap id="m_ylw-pushpin1">
 		<Pair>
@@ -100,62 +106,48 @@
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin00">
+	<Style id="sn_C">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>80ff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>80ff0055</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_picnic">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin00">
+	<Style id="sn_B">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_C">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+			<styleUrl>#sn_C</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+			<styleUrl>#sh_C</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_police">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -163,10 +155,70 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin1">
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/10.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/10-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -175,53 +227,61 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>804411ff</color>
+			<color>ffff0055</color>
+			<width>4</width>
 		</LineStyle>
-		<PolyStyle>
-			<color>802807ff</color>
-		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin0">
+	<Style id="sn_lodging">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_9">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/9.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/9-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin0">
+	<Style id="sn_3">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<PolyStyle>
-			<color>800000ff</color>
-		</PolyStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_police">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_police</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_police</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="s_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -234,9 +294,571 @@
 			<color>80ffaa00</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sh_5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_A">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_A">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/9.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/9-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_police">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_police</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_B">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>804411ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>802807ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>804411ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>802807ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_picnic">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_picnic0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_picnic0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_police">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>804411ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_9</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_picnic0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_picnic</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_picnic</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_police">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_picnic">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_C">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -255,78 +877,54 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sh_lodging">
+	<Style id="sn_4">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0055</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_police">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin1">
+	<Style id="sh_7">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>804411ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>802807ff</color>
-		</PolyStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
@@ -336,28 +934,26 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<PolyStyle>
-			<color>80ffaa00</color>
-		</PolyStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>5</width>
+		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin00">
+	<Style id="s_ylw-pushpin_hl3">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>80ff0000</color>
-		</LineStyle>
 		<PolyStyle>
-			<color>80ff0055</color>
+			<color>807faaff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_picnic">
+	<Style id="sn_picnic">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
 			</Icon>
@@ -368,28 +964,55 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin01">
+	<StyleMap id="m_ylw-pushpin4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin2">
+	<StyleMap id="msn_4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -397,63 +1020,20 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<PolyStyle>
-			<color>8000aaff</color>
+			<color>807faaff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin3">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8000aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_lodging0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_lodging0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
+	<StyleMap id="msn_A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_A</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_ylw-pushpin01">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -466,7 +1046,111 @@
 			<color>800000ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl2">
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_lodging0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_picnic0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_picnic0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_lodging">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>80ffaa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_lodging">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin000">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -475,33 +1159,26 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ffff0055</color>
-			<width>4</width>
+			<color>80ff0000</color>
 		</LineStyle>
+		<PolyStyle>
+			<color>80ff0055</color>
+		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
-		<name>RizeBelediyesi</name>
+		<name>rize-belediyesi</name>
 		<open>1</open>
 		<Folder>
-			<name>Rifi</name>
+			<name>rifi</name>
 			<open>1</open>
 			<Folder>
 				<name>yurtlar</name>
-				<open>1</open>
 				<Folder>
 					<name>universite-yurdu</name>
+					<open>1</open>
 					<Placemark>
 						<name>universite-yurdu</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/yurtlar/RTE%C3%9C%20FENER%20W%C4%B0F%C4%B0.png">]]></description>
 						<LookAt>
 							<longitude>40.49284396024787</longitude>
 							<latitude>41.03629620309868</latitude>
@@ -581,7 +1258,7 @@
 							<range>247.3564430063885</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>40.51332826247051,41.03097075482605,0</coordinates>
@@ -616,7 +1293,7 @@
 							<range>247.3564430063885</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>40.51255377139204,41.03071285007343,0</coordinates>
@@ -651,7 +1328,7 @@
 							<range>281.7674478301356</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>40.57139177319991,41.03616924041845,0</coordinates>
@@ -686,7 +1363,7 @@
 							<range>242.6182130358054</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>40.55058383235111,41.02831840550738,0</coordinates>
@@ -712,7 +1389,6 @@
 				<name>acik-alanlar</name>
 				<Folder>
 					<name>rize-fener-projesi</name>
-					<open>1</open>
 					<Placemark>
 						<name>rize-fener-projesi</name>
 						<description><![CDATA[<img style="max-width:1000px;" src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/FENER%20W%C4%B0F%C4%B0.png">]]></description>
@@ -991,10 +1667,44 @@
 						</Polygon>
 					</Placemark>
 				</Folder>
+				<Folder>
+					<name>ziraat-cay-bahcesi</name>
+					<Placemark>
+						<name>ziraat-cay-bahcesi</name>
+						<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/rifi/acik-alanlar/Z%C4%B0RAAT%20W%C4%B0F%C4%B0.png">]]></description>
+						<LookAt>
+							<longitude>40.51056040864348</longitude>
+							<latitude>41.02135014132461</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0003396919885877503</heading>
+							<tilt>21.80720598773803</tilt>
+							<range>451.6641690379083</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_picnic0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.51056819769454,41.0211808518424,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ziraat-cay-bahcesi</name>
+						<styleUrl>#m_ylw-pushpin3</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										40.50973720139353,41.02110045611192,0 40.50984180085062,41.02087221339675,0 40.50998215217161,41.02073016336853,0 40.51016517720522,41.0206282385451,0 40.51107302327875,41.02091352727494,0 40.51234886351627,41.02091352363976,0 40.51237572514403,41.0212782984942,0 40.51234517918547,41.0215281657193,0 40.51188191324402,41.02162190506667,0 40.51137703634586,41.0215916030101,0 40.51112655777763,41.02159496158387,0 40.51095576084941,41.02156814722017,0 40.51060877430343,41.02155812412384,0 40.51017209575353,41.02125929923833,0 40.50973720139353,41.02110045611192,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
 			</Folder>
 			<Folder>
 				<name>ag-baglantilari</name>
-				<open>1</open>
 				<Folder>
 					<name>yurtlar</name>
 					<open>1</open>
@@ -1061,6 +1771,7 @@
 				</Folder>
 				<Folder>
 					<name>acik-alanlar</name>
+					<open>1</open>
 					<Placemark>
 						<name>link-fener-kale</name>
 						<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -1141,16 +1852,490 @@
 							</coordinates>
 						</LineString>
 					</Placemark>
+					<Placemark>
+						<name>link-ziraat-kale</name>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<LineString>
+							<tessellate>1</tessellate>
+							<coordinates>
+								40.51156106919014,41.02127509511612,0 40.5106749842177,41.02729786451792,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
 				</Folder>
 			</Folder>
 		</Folder>
 		<Folder>
-			<name>TrafficCounter</name>
+			<name>trafik-sayim</name>
+			<open>1</open>
+			<Folder>
+				<name>akbank-kavsak</name>
+				<Placemark>
+					<name>akbank-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/AKBANK%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51996155664081</longitude>
+						<latitude>41.02462527014018</latitude>
+						<altitude>0</altitude>
+						<heading>38.23376195905472</heading>
+						<tilt>33.74444158745893</tilt>
+						<range>294.4200661338647</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.5197364401354,41.02446952600348,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>akbank-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51986795412441,41.02452340706827,0 40.51990077832399,41.02459817761612,0 40.51969609368979,41.02464840274212,0 40.51964826320729,41.02457968828342,0 40.51951980402652,41.02460129300393,0 40.51949035576925,41.02449022773666,0 40.51959959150597,41.02446437654839,0 40.51952706072404,41.02433756264515,0 40.51973267904393,41.02427642086419,0 40.51985366639142,41.02442010742961,0 40.52003905001945,41.02438458744475,0 40.52007272542397,41.02447238354098,0 40.51986795412441,41.02452340706827,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>belediye-kavsak</name>
+				<Placemark>
+					<name>belediye-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/BELED%C4%B0YE%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51879190921144</longitude>
+						<latitude>41.02673452442362</latitude>
+						<altitude>0</altitude>
+						<heading>38.23299422181258</heading>
+						<tilt>33.74448808470337</tilt>
+						<range>303.7380341050542</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51776891959624,41.0270333247858,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>belediye-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51778334248778,41.02670069495149,0 40.51790080121977,41.02686127739883,0 40.51802127407905,41.02681869823579,0 40.51816056723534,41.02695774826756,0 40.51758839627975,41.02741757289993,0 40.51748164252871,41.02724223760631,0 40.51762126826946,41.02710761576369,0 40.51747396425907,41.02691615792312,0 40.51754883219488,41.02686941081054,0 40.51767582918377,41.02703402293336,0 40.51784210303675,41.02691761077595,0 40.5177202389406,41.02674517780442,0 40.51778334248778,41.02670069495149,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>kale-kavsak</name>
+				<Placemark>
+					<name>kale-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/KALE%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51512903303182</longitude>
+						<latitude>41.0268588723843</latitude>
+						<altitude>0</altitude>
+						<heading>38.23058988836232</heading>
+						<tilt>33.74426038204196</tilt>
+						<range>258.1714329053999</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51483798288401,41.0265306090497,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>kale-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51486369418838,41.02657094662591,0 40.51473404566474,41.02671488439888,0 40.51463192038592,41.02667827297897,0 40.51474766338867,41.02654891191728,0 40.51459666648657,41.02653627293545,0 40.51462402726875,41.02648628710426,0 40.51479324630503,41.02650002337675,0 40.51483527058842,41.02645584851784,0 40.51483411275581,41.02645474869243,0 40.51486217174492,41.0264305765772,0 40.51501212634223,41.0262693804687,0 40.51511108049547,41.02630689556576,0 40.51493582113171,41.02647613290097,0 40.51503912067811,41.02645165369934,0 40.51504979659566,41.02645042529486,0 40.51506159219202,41.02644764934711,0 40.51508328196456,41.02644283618264,0 40.5152124328517,41.02641417616301,0 40.51522928745977,41.02647509617752,0 40.51486369418838,41.02657094662591,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>kırmızı-kosk-kavsak</name>
+				<Placemark>
+					<name>kırmızı-kosk-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/KIRMIZI%20K%C3%96%C5%9EK%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51512903303182</longitude>
+						<latitude>41.0268588723843</latitude>
+						<altitude>0</altitude>
+						<heading>38.23058988836232</heading>
+						<tilt>33.74426038204196</tilt>
+						<range>258.1714329053999</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51548127520562,41.02640608350134,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>kirmizi-kosk-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51550850995446,41.02641389366361,0 40.51524665042508,41.02647161898393,0 40.51522924830923,41.02641160699833,0 40.51530283497687,41.02639542962787,0 40.51511982995645,41.02631150954917,0 40.51516324975729,41.02626150643844,0 40.5153759734353,41.02637532008597,0 40.5154847299692,41.02635516319187,0 40.51550850995446,41.02641389366361,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>kutuphane-kavsak</name>
+				<Placemark>
+					<name>kutuphane-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/K%C3%9CT%C3%9CPHANE%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51629515253785</longitude>
+						<latitude>41.02627709325305</latitude>
+						<altitude>0</altitude>
+						<heading>38.23135542558523</heading>
+						<tilt>33.7247796149258</tilt>
+						<range>177.452463907464</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51615337351986,41.02637355395007,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>kutuphane-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.5162040201207,41.02646805806361,0 40.51617231757984,41.02645672432056,0 40.51599032985438,41.02662042730726,0 40.51588190279453,41.02657294249367,0 40.51605189156732,41.02640123506609,0 40.51585537218364,41.02639069847311,0 40.51588674895174,41.02632733034747,0 40.51599413264896,41.02633519588288,0 40.51594168097723,41.02630526399368,0 40.51600894618969,41.02626594479085,0 40.51609963655115,41.0263304802136,0 40.51614566599495,41.02628631933963,0 40.51643015461929,41.02612548018626,0 40.51657314870264,41.02623138128665,0 40.51636794666388,41.02637159050165,0 40.51648396256303,41.02642114707271,0 40.51640707090461,41.02653300553679,0 40.5162040201207,41.02646805806361,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>maras-kavsagi</name>
+				<Placemark>
+					<name>maras-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/MARA%C5%9E%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51575400265597</longitude>
+						<latitude>41.02621561809053</latitude>
+						<altitude>0</altitude>
+						<heading>6.477084343909898e-05</heading>
+						<tilt>24.78930645590495</tilt>
+						<range>128.1178079288522</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51567105038044,41.02635269417254,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>maras-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.5156961254711,41.02637969985651,0 40.51571462574927,41.02642726735774,0 40.51566237114501,41.02645293295647,0 40.5156444322683,41.02638092664554,0 40.51552920634914,41.02640833757759,0 40.51550091354326,41.02635068124862,0 40.51564285317213,41.02631547535709,0 40.51567742387525,41.02623156666134,0 40.51572821923924,41.02624322625137,0 40.51569974306331,41.0263166513759,0 40.5158715322781,41.02632409358773,0 40.51583694614128,41.02638491119104,0 40.5156961254711,41.02637969985651,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>mavi-kose-kavsak</name>
+				<open>1</open>
+				<Placemark>
+					<name>mavi-kose-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/MAV%C4%B0%20K%C3%96%C5%9EE%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51735741479858</longitude>
+						<latitude>41.02500564361469</latitude>
+						<altitude>0</altitude>
+						<heading>0.001272154098151628</heading>
+						<tilt>19.93967506033669</tilt>
+						<range>173.6452629510435</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_7</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51737565318663,41.02500373208874,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mavi-kose-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51717509814779,41.02500246108337,0 40.51739484396106,41.02495229570984,0 40.51750026223525,41.02493141434405,0 40.51754936564836,41.02501253217591,0 40.51743094868015,41.02503727725977,0 40.51748740515858,41.02513648249198,0 40.5174157481963,41.02516658685575,0 40.51734973243854,41.02505100563952,0 40.51719797586767,41.02508379310356,0 40.51717509814779,41.02500246108337,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>meteler-kavsak</name>
+				<open>1</open>
+				<Placemark>
+					<name>meteler-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/METELER%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.5204482838523</longitude>
+						<latitude>41.02544914231952</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001309832908315974</heading>
+						<tilt>27.25712683049188</tilt>
+						<range>186.9116896554269</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_8</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.52048456957875,41.02581532983402,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>meteler-kavsagi</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.52000976010847,41.02598637621396,0 40.51997692781968,41.02591460536848,0 40.5203482636628,41.02582413939811,0 40.52025692895002,41.02562702418778,0 40.52045337379197,41.0255733191513,0 40.52056985660175,41.02576163464223,0 40.52076176354159,41.02574803033749,0 40.52074389920219,41.02585980135794,0 40.52062322191776,41.02587063510936,0 40.52062953529119,41.02596532164632,0 40.52056844165381,41.02606692728443,0 40.52031323099773,41.02599408929873,0 40.52010157375941,41.02597869348112,0 40.52000976010847,41.02598637621396,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>neas-kavsak</name>
+				<open>1</open>
+				<Placemark>
+					<name>neas-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/NEAS%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.5178020077941</longitude>
+						<latitude>41.02560021906676</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001613401836908958</heading>
+						<tilt>27.60711463287896</tilt>
+						<range>164.4607804202534</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_9</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51768300930311,41.02558894953893,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>neas-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51787538871213,41.02547789409176,0 40.51793664394635,41.02554708927318,0 40.51749765943257,41.02568254901258,0 40.51748448526266,41.02559805313599,0 40.51763052068511,41.0255546892135,0 40.51758893281362,41.02546381589714,0 40.51765286597741,41.02544846374663,0 40.51769630656685,41.02553606053997,0 40.51787538871213,41.02547789409176,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>tip-fakültesi-kavsak</name>
+				<open>1</open>
+				<Placemark>
+					<name>tip-fakultesi-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/TIP%20FAKULTES%C4%B0%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.56648667508485</longitude>
+						<latitude>41.03762456620296</latitude>
+						<altitude>0</altitude>
+						<heading>0.02965219813721253</heading>
+						<tilt>30.00155567106446</tilt>
+						<range>346.7730444333116</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_10</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.56639849695574,41.03741372675565,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>tip-fakultesi-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.56688956120405,41.0375165272334,0 40.56674021014103,41.03751402886922,0 40.56661240183429,41.03753713616004,0 40.56653841880353,41.03763647499517,0 40.56645863104742,41.03781403578361,0 40.56626374882329,41.0377473936741,0 40.56626719990111,41.03764721593082,0 40.5661942082051,41.03751423045108,0 40.56600722306224,41.0374636696593,0 40.56602914606901,41.03736973772488,0 40.56620584983215,41.03732858880868,0 40.56623578106888,41.03723642833857,0 40.5662109069614,41.03704301549924,0 40.56646981355974,41.03702341562565,0 40.56650027297599,41.03711113610262,0 40.56661005861813,41.03729028503314,0 40.56684684611209,41.03735487050938,0 40.56711663418537,41.03743328176675,0 40.56706805962261,41.03757318610361,0 40.56688956120405,41.0375165272334,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>valilik-kavsak</name>
+				<open>1</open>
+				<Placemark>
+					<name>valilik-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/VAL%C4%B0L%C4%B0K%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51567969121351</longitude>
+						<latitude>41.02818493523223</latitude>
+						<altitude>0</altitude>
+						<heading>-0.003548634957384491</heading>
+						<tilt>28.25304446057886</tilt>
+						<range>417.7144397592084</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_A</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51559177483171,41.02787919360664,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>valilik-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51569393783976,41.02797004301354,0 40.51561797797413,41.02812430659763,0 40.51537969232616,41.02799681821205,0 40.51547560782436,41.02775386098868,0 40.51549873349006,41.02752042977589,0 40.51566292051574,41.02753888895372,0 40.51567970985104,41.02778481004572,0 40.51604024137919,41.02791703834129,0 40.51594336711722,41.0280844076925,0 40.51569393783976,41.02797004301354,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>yapikredi-kavsak</name>
+				<open>1</open>
+				<Placemark>
+					<name>yapikredi-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/YAPI%20KREDI%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51943800361466</longitude>
+						<latitude>41.02479911179177</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001055498278537333</heading>
+						<tilt>29.56751486889833</tilt>
+						<range>299.3787324991729</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_B</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51995716395687,41.02488341173909,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>yapıkredi-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.52035452480914,41.02485542189344,0 40.52012869790838,41.02491406915799,0 40.52006685758562,41.02493548955811,0 40.52011755831485,41.02504512124692,0 40.51997584609777,41.02508262433508,0 40.51991260975153,41.02495466676791,0 40.51972581884564,41.02499342145818,0 40.51968591634088,41.02489045006556,0 40.51970520324966,41.02484845360775,0 40.51980946236721,41.02482539809647,0 40.51976883681405,41.02472177517134,0 40.51991540732207,41.02468446852067,0 40.51998103196465,41.02467359481121,0 40.52003204278397,41.02478890978811,0 40.52024061434582,41.02474843641958,0 40.52031009887986,41.02472842406249,0 40.52035452480914,41.02485542189344,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>seyhcamii-kavsak</name>
+				<open>1</open>
+				<Placemark>
+					<name>seyh-camii-kavsak</name>
+					<description><![CDATA[<img src="https://raw.githubusercontent.com/ucoruh/ribel-images/main/images/count/%C5%9EEYH%20CAM%C4%B0%C4%B0%20KAV%C5%9EA%C4%9EI.png">]]></description>
+					<LookAt>
+						<longitude>40.51631712482994</longitude>
+						<latitude>41.02510780536667</latitude>
+						<altitude>0</altitude>
+						<heading>-0.003051553631982948</heading>
+						<tilt>24.15674807300998</tilt>
+						<range>259.2355788529444</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_C</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.51638458124549,41.02505296704562,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>seyh-camii-kavsak</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									40.51622122995166,41.02527892225022,0 40.51608977454014,41.02517330060245,0 40.51622294419919,41.02503826861052,0 40.51630827589583,41.0249695257106,0 40.51633660124836,41.02483525522668,0 40.51635136080178,41.02477634682459,0 40.51646485931648,41.0247830198005,0 40.51645299861973,41.02500007893832,0 40.51648072929775,41.02503462041189,0 40.51664240407582,41.02504012090665,0 40.51675232428463,41.0250401260592,0 40.51674998764329,41.02515800867944,0 40.51653269520713,41.02516565008057,0 40.51641105403993,41.02515990352238,0 40.51630325957547,41.02520614749638,0 40.51622122995166,41.02527892225022,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
 		</Folder>
 		<Folder>
-			<name>BelediyeBinası</name>
+			<name>belediye-binasi</name>
+			<open>1</open>
 			<Placemark>
-				<name>Rize Belediyesi</name>
+				<name>rize belediyesi</name>
 				<LookAt>
 					<longitude>40.51645806166412</longitude>
 					<latitude>41.02682348896347</latitude>
@@ -1167,8 +2352,8 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>BelediyeBinası</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<name>rize belediyesi</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1181,6 +2366,9 @@
 				</Polygon>
 			</Placemark>
 		</Folder>
+	</Folder>
+	<Folder>
+		<name>diger</name>
 		<Folder>
 			<name>Toki-Carsi-Projesi</name>
 			<Placemark>
